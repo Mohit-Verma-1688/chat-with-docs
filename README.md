@@ -2,4 +2,4 @@
 
 ## Running application Demo:
 
-![](/images/chat-with-docs.mov)
+![](./images/chat-with-docs.mov)
