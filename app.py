@@ -284,7 +284,7 @@ def main():
 
              st.session_state.conversation = create_retrieval_qa_bot(loaded_documents)
 
-             st.write(st.session_state.conversation)
+             #st.write(st.session_state.conversation)
              
 
            else:
