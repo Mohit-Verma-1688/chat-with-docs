@@ -2,4 +2,4 @@
 
 ## Running application Demo:
 
-![](images/chat-with-docs.mov)
+<video src = images/chat-with-docs.mov />
