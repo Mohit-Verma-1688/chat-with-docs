@@ -66,4 +66,5 @@ nomic-embed-text:latest	0a109f422b47	274 MB	9 seconds ago
 ## Running application Demo:
 
 
-![alt_text](images/chat-with-docs.gif)
+
+<img src="images/chat-with-docs.gif" width="400" >
