@@ -46,7 +46,7 @@ nomic-embed-text:latest	0a109f422b47	274 MB	9 seconds ago
 
 ```
 
-## Change the model of your choice in the application by chaning the paramter in app.py
+## Change the model of your choice in the application by chaning the paramter in app.py. ChromaDB is used as vector DB to store the embedded documents. 
 
 - model = os.environ.get("MODEL", "mistral")
 
