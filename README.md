@@ -65,6 +65,21 @@ nomic-embed-text:latest	0a109f422b47	274 MB	9 seconds ago
 
 ## Running application Demo:
 
+ - Getting on the home page. 
+
+<img src="images/image1.png" >
+
+- Uploading the documents.
+
+<img src="images/image2.png" >
+
+- Asking a question from the document 
+
+<img src="images/image3.png" >
+
+- Asking a second question on the same chat thread.
+
+<img src="images/image4.png" >
 
 
-<img src="images/chat-with-docs.gif" width="400" >
+

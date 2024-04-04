@@ -83,8 +83,8 @@ def create_vector_database(loaded_documents):
 
   text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
   texts = text_splitter.split_documents(loaded_documents)
-  embeddings = OllamaEmbeddings(base_url="http://localhost:11434", model="nomic-embed-text")
-  #embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name)
+  #embeddings = OllamaEmbeddings(base_url="http://localhost:11434", model="nomic-embed-text")
+  embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name)
   db = Chroma.from_documents(texts, embeddings, persist_directory=persist_directory)
   #db = Chroma(persist_directory=persist_directory, embedding_function=embeddings, client_settings=CHROMA_SETTINGS)
   collection = db.get()
