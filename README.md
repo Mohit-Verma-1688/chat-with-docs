@@ -65,6 +65,5 @@ nomic-embed-text:latest	0a109f422b47	274 MB	9 seconds ago
 
 ## Running application Demo:
 
-![](images/chat-with-docs.mov)
-{{<video src = "images/chat-with-docs.mov"/>}}
+
 ![alt_text](images/chat-with-docs.gif)
